@@ -14,10 +14,12 @@ import {
   SiPostgresql
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
+import { TbBrandReactNative } from 'react-icons/tb';
 
 export function TechStack() {
   const technologies = [
     { name: 'React', icon: SiReact, color: '#61DAFB' },
+    { name: 'React Native', icon: TbBrandReactNative, color: '#61DAFB' },
     { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
     { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
     { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
