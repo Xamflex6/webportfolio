@@ -6,15 +6,17 @@ import {
   SiNextdotjs, 
   SiTypescript, 
   SiJavascript, 
-  SiTailwindcss, 
+  SiTailwindcss,
   SiPython,
+  SiPhp,
   SiSpring,
   SiGit,
   SiDocker,
-  SiPostgresql
+  SiPostgresql,
+  SiGnubash
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
-import { TbBrandReactNative } from 'react-icons/tb';
+import { TbBrandReactNative, TbBrandPowershell } from 'react-icons/tb';
 
 export function TechStack() {
   const technologies = [
@@ -25,11 +27,14 @@ export function TechStack() {
     { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
     { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
     { name: 'Python', icon: SiPython, color: '#3776AB' },
+    { name: 'PHP', icon: SiPhp, color: '#777BB4' },
     { name: 'Java', icon: FaJava, color: '#007396' },
     { name: 'Spring Boot', icon: SiSpring, color: '#6DB33F' },
     { name: 'Git', icon: SiGit, color: '#F05032' },
     { name: 'Docker', icon: SiDocker, color: '#2496ED' },
     { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+    { name: 'Bash', icon: SiGnubash, color: '#4EAA25' },
+    { name: 'PowerShell', icon: TbBrandPowershell, color: '#5391FE' },
   ];
 
   return (

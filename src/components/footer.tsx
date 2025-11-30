@@ -9,7 +9,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="flex flex-col gap-6 px-5 py-10 text-center border-t border-white/10 mt-20 md:mt-32">
+    <footer className="flex flex-col gap-6 px-5 py-10 pt-16 text-center border-t border-white/10 mt-20 md:mt-32">
       <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
         {navLinks.map((link) => (
           <Link

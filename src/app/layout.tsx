@@ -4,8 +4,11 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jane Doe | Full-Stack Developer",
+  title: "Decamps Max | CS Student & Developer",
   description: "Passionate about building innovative solutions and solving complex problems with technology.",
+  icons: {
+    icon: "/assets/Flaticon.png",
+  },
 };
 
 export default function RootLayout({
