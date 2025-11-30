@@ -34,7 +34,7 @@ export function Contact() {
                   className="bg-white text-black font-bold h-12 md:h-14 text-sm md:text-base tracking-wider transition-all duration-200 hover:shadow-[9px_9px_33px_#d1d1d1,-9px_-9px_33px_rgba(255,255,255,0.3)] hover:-translate-y-0.5 border-none mb-4 mt-4"
                   style={{ paddingLeft: '2.5rem', paddingRight: '2.5rem' }}
                 >
-                  <Link href="mailto:decampsmax0@gmail.com" className="flex items-center justify-center gap-2">
+                  <Link href="mailto:max.decamps@std.heh.be" className="flex items-center justify-center gap-2">
                     <span>Email Me</span>
                     <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                   </Link>
