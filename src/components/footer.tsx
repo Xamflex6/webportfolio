@@ -22,7 +22,7 @@ export function Footer() {
         ))}
       </nav>
       <p className="text-gray-500 text-sm font-normal leading-normal">
-        © {new Date().getFullYear()} Decamps Max. A
+        © {new Date().getFullYear()} Decamps Max. All rights reserved.
       </p>
     </footer>
   );

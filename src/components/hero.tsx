@@ -7,19 +7,19 @@ export function Hero() {
       <div className="w-full text-center py-16 md:py-32">
         <div className="flex flex-col items-center gap-8 max-w-4xl mx-auto px-4">
           <div className="flex flex-col items-center gap-6">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tighter text-white">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tighter animated-gradient-text">
               Decamps Max
             </h1>
-            <h2 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tighter animated-gradient-text">
+            <h3 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tighter text-white">
               CS Student
-            </h2>
+            </h3>
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               asChild 
               size="lg" 
-              className="bg-white text-black hover:bg-gray-200 font-bold"
+              className="bg-white text-black hover:bg-gray-200 font-bold px-10 py-7 text-base h-auto min-w-[180px]"
             >
               <Link href="#projects">View My Work</Link>
             </Button>
@@ -27,7 +27,7 @@ export function Hero() {
               asChild 
               size="lg" 
               variant="outline" 
-              className="bg-transparent border-white/20 text-white hover:bg-white/10 font-bold"
+              className="bg-transparent border-white/20 text-white hover:bg-white/10 font-bold px-10 py-7 text-base h-auto min-w-[180px]"
             >
               <Link href="#contact">Get In Touch</Link>
             </Button>
@@ -35,7 +35,7 @@ export function Hero() {
 
           <div className="flex justify-center gap-6 mt-6">
             <Link 
-              href="https://github.com" 
+              href="https://github.com/xamflex6" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -51,7 +51,7 @@ export function Hero() {
               </svg>
             </Link>
             <Link 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/maxdecamps/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -67,7 +67,7 @@ export function Hero() {
               </svg>
             </Link>
             <Link 
-              href="mailto:student@example.com"
+              href="mailto:max.decamps@std.heh.be"
               className="text-gray-400 hover:text-white transition-colors"
               aria-label="Email"
             >
