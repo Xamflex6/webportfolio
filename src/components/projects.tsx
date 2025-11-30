@@ -42,7 +42,7 @@ export function Projects() {
   return (
     <section id="projects" className="w-full py-20 md:py-32">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-white text-center mb-16">
+        <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-white text-center mb-16 mt-12">
           My Projects
         </h2>
         
