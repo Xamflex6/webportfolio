@@ -1,5 +1,6 @@
 import { Header } from '@/components/header';
 import { Hero } from '@/components/hero';
+import { Projects } from '@/components/projects';
 import { Footer } from '@/components/footer';
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           <div className="flex flex-col w-full max-w-6xl flex-1">
             <Header />
             <Hero />
+            <Projects />
             <Footer />
           </div>
         </div>
