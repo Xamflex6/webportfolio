@@ -24,7 +24,7 @@ export function Projects() {
       title: 'QrCode Generator',
       rotation: -15,
       image: '/assets/projects/qrcodeflex.png',
-      link: 'https://example.com/project1',
+      link: 'https://qrcodeflex.vercel.app/',
       description: 'A simple and efficient QR code generator',
     },
     {
