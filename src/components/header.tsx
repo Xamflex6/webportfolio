@@ -33,9 +33,11 @@ export function Header() {
           {/* Brand */}
           <Link
             href="#"
-            className="text-white font-black tracking-tighter text-xl hover:opacity-70 transition-opacity select-none"
+            className="font-mono text-base hover:opacity-70 transition-opacity select-none"
           >
-            MD
+            <span className="text-gray-500">&lt;</span>
+            <span className="text-white font-bold">MD</span>
+            <span className="text-gray-500"> /&gt;</span>
           </Link>
 
           {/* Desktop Navigation */}
